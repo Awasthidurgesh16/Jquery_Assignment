@@ -2,27 +2,97 @@
 <html>
 <head>
 	<title>Jquery </title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+
+	
 </head>
+
 <body>
+<!-- container -->
+	<header class="container" id="main"> 
+  		<nav class="navbar navbar-default navbar-fixed-top" id="header">  
+    
+        	<div class="container">
+          		<a class="navbar-brand" alt="logo" id="logo">BNews</a>
+          		<form class="navbar-form">
+          		<input class="form-control" type="text" placeholder="Search" id="movie-title">
+          		<button type="button" class="btn btn-defult" id="do-search"> <span class="glyphicon glyphicon-search"></span></button>
+          		</form>
+        					<div class="pull-right options" id="options">
+                				<ul>
+					    			    <li><a href="#">Custmercare</a></li>
+					    			    <li><a href="#">Login</a></li>
+					    			    <li><a href="#">DwonlaodApp</a></li>
+	    						</ul>
+		   					 </div> 
+        	</div>
 
-				<h1>Search Movie:</h1>
+	 	
+	          <div class="navbar-header">
+	           <button type=button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+	           <span class="icon-bar"></span>
+	           <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	         	 </button>
+	          </div>
+    
 
-				<input type=  "text" id="movie-title" placeholder="Search movie here..." />
-				<input type= "button" id="do-search"/>
+	  		
+	      <div class="navbar-collapse collapse navbar-default" id="mynavbar"> 
+       		 <div class="container">
+	  	      <ul class="nav navbar-nav">
+  	    	  	<li><a href="#" ><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            	<li><a href="#">Boxoffice</a></li>
+	            <li><a href="#">Reviews</a></li>
+	            <li><a href="#">100crClub</a></li>
+	            <li><a href="#">videos</a></li>
+	            <li><a href="#">NewMovies</a></li>
+	            <li><a href="#">Contact</a></li>
+	            <li><a href="#">About</a></li>
+    	     </ul>
+           </div>
+       </div>
+     </nav>
+	<!-- navbar -->		
+</header><br><br>
 
-<div id="answer">
-	<!--  <table id="Table">
-    <tr>
-    		<th>Poster</th>
-        	<th>Title</th>
-         	<th>Type</th>
-         	<th>Year</th>
-    </tr>
-</table>   -->
-</div>
+				<div class="content">
+					<div class="container text-center">
+						<h1>Search Movie:</h1>
 
+				<!-- <input type=  "text" id="movie-title" placeholder="Search movie here..." />
+				<input type="button" id="do-search" class="btn btn-info" value="Search"></button> -->
+				<!-- <input type= "button" id="do-search" name="search"><span class="glyphicon glyphicon-search"></span> -->
+
+						<div class="container" id="answer">
+					
+								<div class="row">
+									<div class="col-md-2 col-md-offset-1"><h3>Poster</h3></div>
+									<div class="col-md-2"><h3>Title</h3></div>
+									<div class="col-md-2"><h3>Year</h3></div>
+									<div class="col-md-2"><h3>Type</h3></div>
+									<div class="col-md-2"><h3>IMDB Id</h3></div>
+								</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
+<!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="path_to/jquery.js"></script>
+<script type="text/javascript" src="path_to/jquery.simplePagination.js"></script>
+<link type="text/css" rel="stylesheet" href="path_to/simplePagination.css"/>
 
 <script src="js/main.js"></script>
 </body>
