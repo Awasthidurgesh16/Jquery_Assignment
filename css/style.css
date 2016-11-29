@@ -63,3 +63,32 @@ li{
     align-content: center;
 }
 
+#page{
+    margin-top: 40px;
+  }
+  #pagination li{
+    list-style: none;
+    color: white;
+    background-color: grey;
+    width: 35px;
+    height: 30px;
+  }
+
+.row1 {
+  display: block !important;
+}
+
+  #pagination li:hover{
+   
+   background-color: orange;
+    cursor: pointer;
+  }
+  #pagination ul{
+    margin-top: 20px;
+    text-align: center;
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+
+  }
+
