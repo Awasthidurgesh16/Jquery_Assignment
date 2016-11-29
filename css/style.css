@@ -1,0 +1,94 @@
+/*..................................logo css.................................*/
+  #logo{
+    font-size: 48px;
+    text-shadow: 2px 2px white;
+    color:grey;
+    font-family:sans-serif;
+
+  }
+
+
+  body{
+    background-color: #DCDCDC !important;
+  }
+
+  /*.....................search bar............................................*/
+     #search-bar{
+    width: auto;
+  }
+  /*..........................option in header.................................*/
+  .options ul li{
+    display: inline;
+  }
+  #options a{
+    color: white !important;
+  }
+
+
+  /*..................................header....................................*/
+  #header{
+    background-color:black;
+  }
+ 
+
+  /*..........................nav bar -css......................................*/
+
+    .navbar-nav li:hover {
+      background:black;
+      
+      font-size: 18px;
+      }
+    .navbar-nav a {
+      text-decoration: none;
+      font-family: sans-serif;
+      }
+ 
+  #mynavbar{
+    background-color:black;
+  }
+
+  .content
+  {
+    margin-top: 90px;
+
+  }.content h1{
+     text-align: center;
+  }
+  
+img{
+    height: 80px;
+    width: 80px;
+}
+li{
+    align-content: center;
+}
+
+#page{
+    margin-top: 40px;
+  }
+  #pagination li{
+    list-style: none;
+    color: white;
+    background-color: grey;
+    width: 35px;
+    height: 30px;
+  }
+
+.row1 {
+  display: block !important;
+}
+
+  #pagination li:hover{
+   
+   background-color: orange;
+    cursor: pointer;
+  }
+  #pagination ul{
+    margin-top: 20px;
+    text-align: center;
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+
+  }
+
